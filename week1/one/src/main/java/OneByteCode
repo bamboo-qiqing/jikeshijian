@@ -1,0 +1,253 @@
+Classfile /C:/Users/76056/Desktop/jikeshijian/week1/question1/bytecode/out/production/bytecode/main/java/One.class
+  Last modified 2021-3-16; size 1227 bytes
+  MD5 checksum d7d89d35eb2378515658fb6a1ebe3ef0
+  Compiled from "One.java"
+public class main.java.One
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Methodref          #23.#62        // java/lang/Object."<init>":()V
+   #2 = Fieldref           #13.#63        // main/java/One.a:I
+   #3 = Fieldref           #13.#64        // main/java/One.c:B
+   #4 = Long               3500l
+   #6 = Fieldref           #13.#65        // main/java/One.d:J
+   #7 = Float              235.33f
+   #8 = Fieldref           #13.#66        // main/java/One.e:F
+   #9 = Double             2.35d
+  #11 = Fieldref           #13.#67        // main/java/One.g:D
+  #12 = Fieldref           #13.#68        // main/java/One.h:Z
+  #13 = Class              #69            // main/java/One
+  #14 = Methodref          #13.#62        // main/java/One."<init>":()V
+  #15 = Fieldref           #70.#71        // java/lang/System.out:Ljava/io/PrintStream;
+  #16 = Fieldref           #13.#72        // main/java/One.b:D
+  #17 = Methodref          #73.#74        // java/io/PrintStream.println:(D)V
+  #18 = Methodref          #73.#75        // java/io/PrintStream.println:(J)V
+  #19 = Methodref          #73.#76        // java/io/PrintStream.println:(C)V
+  #20 = Methodref          #13.#77        // main/java/One.setValue:(I)V
+  #21 = Double             2.45d
+  #23 = Class              #78            // java/lang/Object
+  #24 = Utf8               a
+  #25 = Utf8               I
+  #26 = Utf8               b
+  #27 = Utf8               D
+  #28 = Utf8               c
+  #29 = Utf8               B
+  #30 = Utf8               d
+  #31 = Utf8               J
+  #32 = Utf8               e
+  #33 = Utf8               F
+  #34 = Utf8               g
+  #35 = Utf8               h
+  #36 = Utf8               Z
+  #37 = Utf8               i
+  #38 = Utf8               C
+  #39 = Utf8               ConstantValue
+  #40 = Integer            65
+  #41 = Utf8               <init>
+  #42 = Utf8               ()V
+  #43 = Utf8               Code
+  #44 = Utf8               LineNumberTable
+  #45 = Utf8               LocalVariableTable
+  #46 = Utf8               this
+  #47 = Utf8               Lmain/java/One;
+  #48 = Utf8               setValue
+  #49 = Utf8               (I)V
+  #50 = Utf8               k
+  #51 = Utf8               j
+  #52 = Utf8               StackMapTable
+  #53 = Utf8               main
+  #54 = Utf8               ([Ljava/lang/String;)V
+  #55 = Utf8               args
+  #56 = Utf8               [Ljava/lang/String;
+  #57 = Utf8               one
+  #58 = Class              #69            // main/java/One
+  #59 = Utf8               <clinit>
+  #60 = Utf8               SourceFile
+  #61 = Utf8               One.java
+  #62 = NameAndType        #41:#42        // "<init>":()V
+  #63 = NameAndType        #24:#25        // a:I
+  #64 = NameAndType        #28:#29        // c:B
+  #65 = NameAndType        #30:#31        // d:J
+  #66 = NameAndType        #32:#33        // e:F
+  #67 = NameAndType        #34:#27        // g:D
+  #68 = NameAndType        #35:#36        // h:Z
+  #69 = Utf8               main/java/One
+  #70 = Class              #79            // java/lang/System
+  #71 = NameAndType        #80:#81        // out:Ljava/io/PrintStream;
+  #72 = NameAndType        #26:#27        // b:D
+  #73 = Class              #82            // java/io/PrintStream
+  #74 = NameAndType        #83:#84        // println:(D)V
+  #75 = NameAndType        #83:#85        // println:(J)V
+  #76 = NameAndType        #83:#86        // println:(C)V
+  #77 = NameAndType        #48:#49        // setValue:(I)V
+  #78 = Utf8               java/lang/Object
+  #79 = Utf8               java/lang/System
+  #80 = Utf8               out
+  #81 = Utf8               Ljava/io/PrintStream;
+  #82 = Utf8               java/io/PrintStream
+  #83 = Utf8               println
+  #84 = Utf8               (D)V
+  #85 = Utf8               (J)V
+  #86 = Utf8               (C)V
+{
+  static double b;
+    descriptor: D
+    flags: ACC_STATIC
+
+  public long d;
+    descriptor: J
+    flags: ACC_PUBLIC
+
+  public main.java.One();
+    descriptor: ()V
+    flags: ACC_PUBLIC
+    Code:
+      stack=3, locals=1, args_size=1   栈深为3，局部变量表中保留一个槽位，参数为一个,非静态方法第0号槽位为this
+         0: aload_0                    构造当前对象，压入栈
+         1: invokespecial #1                  // Method java/lang/Object."<init>":()V  初始化当前对象，无参数无返回的构造函数
+         4: aload_0
+         5: iconst_1
+         6: putfield      #2                  // Field a:I
+         9: aload_0
+        10: bipush        100
+        12: putfield      #3                  // Field c:B
+        15: aload_0
+        16: ldc2_w        #4                  // long 3500l
+        19: putfield      #6                  // Field d:J
+        22: aload_0
+        23: ldc           #7                  // float 235.33f
+        25: putfield      #8                  // Field e:F
+        28: aload_0
+        29: ldc2_w        #9                  // double 2.35d
+        32: putfield      #11                 // Field g:D
+        35: aload_0
+        36: iconst_1
+        37: putfield      #12                 // Field h:Z
+        40: return
+      LineNumberTable:
+        line 3: 0
+        line 5: 4
+        line 7: 9
+        line 8: 15
+        line 9: 22
+        line 10: 28
+        line 11: 35
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      41     0  this   Lmain/java/One;
+
+  public void setValue(int);
+    descriptor: (I)V
+    flags: ACC_PUBLIC
+    Code:
+      stack=5, locals=3, args_size=2
+         0: iconst_0
+         1: istore_2
+         2: iload_2
+         3: bipush        11
+         5: if_icmpge     25
+         8: aload_0
+         9: aload_0
+        10: getfield      #11                 // Field g:D
+        13: iload_1
+        14: i2d
+        15: dadd
+        16: putfield      #11                 // Field g:D
+        19: iinc          2, 1
+        22: goto          2
+        25: return
+      LineNumberTable:
+        line 14: 0
+        line 15: 8
+        line 14: 19
+        line 17: 25
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            2      23     2     k   I
+            0      26     0  this   Lmain/java/One;
+            0      26     1     j   I
+      StackMapTable: number_of_entries = 2
+        frame_type = 252 /* append */
+          offset_delta = 2
+          locals = [ int ]
+        frame_type = 250 /* chop */
+          offset_delta = 22
+
+  public static void main(java.lang.String[]);
+    descriptor: ([Ljava/lang/String;)V
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=5, locals=2, args_size=1
+         0: new           #13                 // class main/java/One
+         3: dup
+         4: invokespecial #14                 // Method "<init>":()V
+         7: astore_1
+         8: getstatic     #15                 // Field java/lang/System.out:Ljava/io/PrintStream;
+        11: aload_1
+        12: getfield      #2                  // Field a:I
+        15: i2d
+        16: getstatic     #16                 // Field b:D
+        19: dadd
+        20: invokevirtual #17                 // Method java/io/PrintStream.println:(D)V
+        23: getstatic     #15                 // Field java/lang/System.out:Ljava/io/PrintStream;
+        26: aload_1
+        27: getfield      #6                  // Field d:J
+        30: aload_1
+        31: getfield      #3                  // Field c:B
+        34: i2l
+        35: ldiv
+        36: invokevirtual #18                 // Method java/io/PrintStream.println:(J)V
+        39: getstatic     #15                 // Field java/lang/System.out:Ljava/io/PrintStream;
+        42: aload_1
+        43: getfield      #8                  // Field e:F
+        46: f2d
+        47: aload_1
+        48: getfield      #11                 // Field g:D
+        51: dmul
+        52: invokevirtual #17                 // Method java/io/PrintStream.println:(D)V
+        55: aload_1
+        56: getfield      #12                 // Field h:Z
+        59: ifeq          70
+        62: getstatic     #15                 // Field java/lang/System.out:Ljava/io/PrintStream;
+        65: bipush        65
+        67: invokevirtual #19                 // Method java/io/PrintStream.println:(C)V
+        70: aload_1
+        71: iconst_2
+        72: invokevirtual #20                 // Method setValue:(I)V
+        75: getstatic     #15                 // Field java/lang/System.out:Ljava/io/PrintStream;
+        78: aload_1
+        79: getfield      #11                 // Field g:D
+        82: invokevirtual #17                 // Method java/io/PrintStream.println:(D)V
+        85: return
+      LineNumberTable:
+        line 20: 0
+        line 21: 8
+        line 22: 23
+        line 23: 39
+        line 24: 55
+        line 25: 62
+        line 27: 70
+        line 28: 75
+        line 29: 85
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      86     0  args   [Ljava/lang/String;
+            8      78     1   one   Lmain/java/One;
+      StackMapTable: number_of_entries = 1
+        frame_type = 252 /* append */
+          offset_delta = 70
+          locals = [ class main/java/One ]
+
+  static {};
+    descriptor: ()V
+    flags: ACC_STATIC
+    Code:
+      stack=2, locals=0, args_size=0
+         0: ldc2_w        #21                 // double 2.45d
+         3: putstatic     #16                 // Field b:D
+         6: return
+      LineNumberTable:
+        line 6: 0
+}
+SourceFile: "One.java"
