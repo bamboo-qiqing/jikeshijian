@@ -103,13 +103,13 @@ Constant pool:
     descriptor: ()V
     flags: ACC_PUBLIC
     Code:
-      stack=3, locals=1, args_size=1   栈深为3，局部变量表中保留一个槽位，参数为一个,非静态方法第0号槽位为this
-         0: aload_0                    构造当前对象，压入栈
-         1: invokespecial #1                  // Method java/lang/Object."<init>":()V  初始化当前对象，无参数无返回的构造函数
-         4: aload_0
-         5: iconst_1
+      stack=3, locals=1, args_size=1
+         0: aload_0  //从局部变量中取出第0个入栈
+         1: invokespecial #1     //弹出最顶端参数并且初始化              // Method java/lang/Object."<init>":()V
+         4: aload_0 从局部变量中取出第0个入栈
+         5: iconst_1  1(int)值入栈。
          6: putfield      #2                  // Field a:I
-         9: aload_0
+         9: aload_0  从局部变量中取出第0个入栈
         10: bipush        100
         12: putfield      #3                  // Field c:B
         15: aload_0
